@@ -1,0 +1,9 @@
+{
+    "name": "savant", 
+    "version": "1.0.0",
+    "dependencies": [
+        "sqlite3",
+        "spdlog", 
+        "gtest"
+    ]
+}
