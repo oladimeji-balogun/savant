@@ -33,7 +33,7 @@ class Book {
         void set_publisher(const std::string& publisher);
         void set_publication_date(time_t publication_date);
         void set_category(const std::string& category);
-        void set_available_count(int amount);
+        void set_available_count(int available_count);
         void set_quantity(int quantity);
 
         // constructor
@@ -44,7 +44,7 @@ class Book {
             const std::string& publisher,
             time_t publication_date,
             const std::string& category,
-            int amount,
+            int available_count,
             int quantity
         );
         // destructor
