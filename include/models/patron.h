@@ -1,6 +1,7 @@
 #ifndef PATRON_H
 #define PATRON_H
 #include <string>
+#include <ctime>
 
 enum class MembershipStatus {
     ACTIVE,
